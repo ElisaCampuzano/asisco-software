@@ -1,0 +1,70 @@
+<div class="row">
+    <div class="col-md-5">
+        <img src="../../../assets/img/imagen registro.jpg" alt="down" class="imagen-izq">
+    </div>
+    <div class="col">
+        <div class="card-body">
+            <div class="card-block">
+                <form class="formulario">
+
+                    <div class="form-group d-flex align-items-center justify-content-center row fondo-logo">
+                        <label>¡Estás a un paso!</label>
+                        <span class="texto font32 sombra-paralela-texto mx-2">Completa tus datos</span>
+                    </div>
+                    <br>
+                    <div class="row">                        
+                        <div class="col-md-6 mb-2 form-group">
+                            <label for="nombre">Nombre(s)</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre(s)">
+                        </div>
+                        <div class="col-md-6 mb-2 form-group">
+                            <label for="apellidos">Apellido(s)</label>
+                            <input type="text" class="form-control" id="apellidos" placeholder="Apellido(s)">
+                        </div>
+                        <div class="col-md-6 mb-2 form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email1"
+                                placeholder="Enter email">
+                        </div>
+                        <div class="col-md-6 mb-2 form-group">
+                            <label for="email2">Confirma tu Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email2" aria-describedby="email2"
+                                placeholder="Enter email">
+                        </div>
+                        <div class="col-md-6 mb-2 form-group">
+                            <label for="celular">Celular</label>
+                            <input type="number" class="form-control" id="celular" placeholder="Celular">
+                        </div>
+                        <div class="col-md-6 mb-2 form-group">
+                            <label for="direccion">Dirección</label>
+                            <input type="text" class="form-control" id="direccion" placeholder="Dirección">
+                        </div>
+                        <div class="col-md-6 mb-2 form-group">
+                            <label for="fechaNacimiento">Fecha de nacimiento</label>
+                            <input type="date" class="form-control" id="fechaNacimiento" placeholder="Fecha de nacimiento">
+                        </div>
+                        <div class="col-md-6 mb-2 form-group">
+                            <label for="ocupacion">Ocupación</label>
+                            <input type="text" class="form-control" id="ocupacion" placeholder="Ocupación">
+                        </div>
+                        <div class="col-md-6 mb-2 form-group">
+                            <label for="contrasena">Contraseña</label>
+                            <input type="password" class="form-control" id="contrasena" placeholder="Contraseña">
+                        </div>
+                        <div class="col-md-6 mb-2 form-group">
+                            <label for="contrasena2">Confirmar Contraseña</label>
+                            <input type="password" class="form-control" id="contrasena2" placeholder="Confirmar Contraseña">
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="form-group boton-iniciar">
+                        <button type="button" class="btn texto-boton registrarse"
+                        (click)="registrarse()">Registrarse</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</div>

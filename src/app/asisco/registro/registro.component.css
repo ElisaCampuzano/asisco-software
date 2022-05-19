@@ -1,0 +1,108 @@
+.imagen-izq {
+    width: 100%;
+}
+
+.formulario{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 10%;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.texto {
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+
+.font32 {
+    font-size: 32px;
+}
+
+.sombra-paralela {
+    filter: drop-shadow(1px 3px 4px rgba(0, 0, 0, .4));
+}
+
+.sombra-paralela-texto {
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, .4);
+}
+
+.fondo-input {
+    background: linear-gradient(to right, #3b7dba, #1d5988);
+    border-radius: 6px;
+}
+
+input:focus {
+    border-color: white;
+}
+
+
+.input-usuario {
+    width: 40px;
+    height: 40px;
+    border-radius: 0%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+.input-password {
+    width: 40px;
+    height: 40px;
+    border-radius: 0%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.boton-iniciar {
+    border-radius: 0%;
+}
+
+.texto-boton{
+    color: white;
+}
+
+.registrarse {
+    background-color: #038c73;
+    border-radius: 8px;
+    border: none;
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .3);
+}
+
+.iniciar-google {
+    background-color: rgb(16, 1, 59);
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .3);
+}
+
+.logo_google{
+    width: 22px;
+    height: 22px;
+}
+
+.datos{
+    color: #000000;
+}
+
+.separador {
+    width: 44%;
+    margin: 0%;
+    margin-left: 28%;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}

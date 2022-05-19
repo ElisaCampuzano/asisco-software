@@ -1,0 +1,59 @@
+<div class="row">
+    <div class="col">
+        <img src="../../../assets/img/imagen_login.jpg" alt="down" class="imagen-izq">
+    </div>
+    <div class="col">
+        <div class="card-body">
+            <div class="card-block">
+                <form class="formulario">
+
+                    <div class="form-group d-flex align-items-center justify-content-center row fondo-logo">
+                        <label>Bienvenido de nuevo</label>
+                        <span class="texto font32 sombra-paralela-texto mx-2">Iniciar sesión</span>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email"
+                            placeholder="Correo Electrónico">                            
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Contraseña</label>
+                        <input type="password" class="form-control" id="contrasena" 
+                            placeholder="Contraseña" >
+                    </div>
+                    <br>
+                    <div>
+                        <span style="color: red; font-size: 10pt;">{{mensajeError}}</span>
+                    </div>
+                    <br>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <a class="datos mx-1">
+                            <em aria-hidden="true"></em> Recordar mis datos</a>
+                        <a class="mx-1">
+                            <em aria-hidden="true"></em> ¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <br>
+                    <div class="form-group d-flex justify-content-center boton-iniciar">
+                        <button type="button" class="btn texto-boton iniciar-sesion"
+                            (click)="iniciarSesion()">Iniciar sesión</button>
+                    </div>
+                    <br>
+                    <div class="form-group d-flex justify-content-center boton-iniciar">
+                        <button type="button" class="btn texto-boton iniciar-google"><img
+                                src="../../../assets/img/logo_google.png" alt="google" class="logo_google"> Or sing-in
+                            with google</button>
+                    </div>
+                    <br><br><br>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <span>¿Quieres registrarte?</span> 
+                        <a class="mx-1" (click)="irARegistro()">Haz click aquí</a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</div>
